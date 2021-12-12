@@ -1,0 +1,21 @@
+/* Para que la barra de navegacion quede fija arriba */
+body {
+  min-height: 75rem;
+}
+/*Para secciones*/
+.bd-example-container-body {
+  height: 500px;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+}
+#inicio, #servicios, #portfolio, #contacto{
+  padding-top: 100px;
+}
+.bd-example-container{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,8 @@
+AnimateScroll
+https://plugins.compzets.com/animatescroll/
+
+Jquery 3.6
+https://jquery.com/download/
+
+Tutorial
+https://www.youtube.com/watch?v=RRY1jcwfY5w&list=PLrAw40DbN0l2oMPXX815oOZdj5ZX46Xvn&index=3

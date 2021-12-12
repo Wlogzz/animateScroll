@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap4-2/css/bootstrap.min.css">
+    <title>AnimateScroll</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="#">Mr Wlogz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" id="menuInicio" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menuServicios" href="#">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menuPortfolio" href="#">Portafolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="menuContacto" href="#">Contacto</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Go!</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Inicio -->
+    <div id="inicio">
+        <main role="main" class="container">
+            <div class="jumbotron">
+                <h1>Sección <span class="badge badge-secondary">INICIO</span></h1>
+                <p class="lead">Tutorial de cómo usar Animate scroll para navegar en un sitio web con el estilo OnePage,
+                    y barra de navegación fija.</p>
+                <a class="btn btn-lg btn-primary" href="#" role="button">Acceder al curso &raquo;</a>
+            </div>
+        </main>
+    </div>
+
+    <!-- Servicios -->
+    <div id="servicios">
+        <main role="main" class="container">
+        <h1 class="text-center">Sección <span class="badge badge-secondary">SERVICIOS</span></h1>
+        <div class="bd-example-container bd-example-container-fluid">
+            <div class="bd-example-container-header"></div>
+            <div class="bd-example-container-body">
+            </div>
+        </div>
+        </main>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+    <main role="main" class="container">
+        <h1 class="text-center">Sección <span class="badge badge-secondary">PORTFOLIO</span></h1>
+        <div class="bd-example-container bd-example-container-fluid">
+            <div class="bd-example-container-header"></div>
+            <div class="bd-example-container-body">
+            </div>
+        </div>
+    </main>
+    </div>
+
+    <!-- Contacto -->
+    <div id="contacto">
+        <h1 class="text-center">Sección <span class="badge badge-secondary">CONTACTO</span></h1>
+        <main role="main" class="container">
+        <div class="bd-example-container bd-example-container-fluid">
+            <div class="bd-example-container-header"></div>
+            <div class="bd-example-container-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> CONTACTO
+                                </div>
+                                <div class="card-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="name">Nombre</label>
+                                            <input type="text" class="form-control" id="name"
+                                                aria-describedby="emailHelp" placeholder="Ingrese su nombre" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="email">e-mail</label>
+                                            <input type="email" class="form-control" id="email"
+                                                aria-describedby="emailHelp" placeholder="Ingrese su e-mail" required>
+
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message">Mensaje</label>
+                                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                                        </div>
+                                        <div class="mx-auto">
+                                            <button type="submit" class="btn btn-info text-right">Enviar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-4">
+                            <div class="card bg-light mb-3">
+                                <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i>
+                                    Dirección</div>
+                                <div class="card-body">
+                                    <p>12345 Av Velez Sarfield</p>
+                                    <p>Córdoba - Capital</p>
+                                    <p>Argentina</p>
+                                    <p>e-mail : prueba@ejemplo.com</p>
+                                    <p>Tel. +54001212315464</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </main>
+    </div>
+
+    <!-- jQuery, Popper.js, Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap4-2/js/bootstrap.min.js"></script>
+
+    <!-- AnimateScroll JS -->
+    <script src="js/animatescroll.min.js"></script>
+    <!--En este script se define el scroll animado -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
